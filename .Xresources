@@ -1,0 +1,164 @@
+!-------------------------------------------
+! XFT Settings gre
+     
+Xft.antialias:  true 
+Xft.autohint:   false 
+Xft.dpi:        96
+Xft.hinting:    true 
+Xft.hintstyle:  hintfull 
+Xft.lcdfilter:  lcddefault
+Xft.rgba:       rgb
+
+
+!-------------------------------------------
+! URXVT - Settings
+
+URxvt*depth:                        32
+URxvt*internalBorder:               3
+URxvt*dynamicColors:                on
+URxvt*urgentOnBell:                 true
+URxvt*borderLess:                   false
+URxvt*scrollBar:                    false
+URxvt*cursorBlink:                  true
+URxvt*cursorUnderline:              true
+URxvt*cursorColor:                  #737077
+URxvt*scrollColor:                  #151515
+URxvt*underlineURLs:                true
+
+!URxvt.transparent:   true
+!URxvt.shading:       20
+
+! with tamsyn
+!URxvt*letterSpace:                  0.3 
+
+! Disable perl
+!URxvt.perl-ext:                 
+!URxvt.perl-ext-common: 
+
+URxvt.font: xft:Hack:pixelsize=12
+URxvt.boldFont: xft:Hack:style=Bold:pixelsize=12
+!URxvt*font: :-*-dina-medium-r-*-*-*-90-*-*-*-*-*-*
+URxvt*italic: :-*-dina-medium-*-*-*-*-90-*-*-*-*-*-*
+!URxvt*boldFont: :-*-dina-bold-r-*-*-*-90-*-*-*-*-*-*
+!URxvt*font: -*-marathonmod-*-*-*-*-14-*-*-*-*-*-*-*
+!Urxvt*font: -*-tewii-*-*-*-*-*-*-*-*-*-*-*-*
+!URxvt*font: -*-marathon-medium-*-*-*-*-*-*-*-*-*-*-*
+!URxvt*boldFont: -*-marathon-bold-*-*-*-*-*-*-*-*-*-*-*
+!URxvt*boldFont: -*-marathon-*-*-*-*-*-*-*-*-*-*-*-*
+!URxvt*boldFont: xft:Tamsyn:style=Bold:pixelsize=16
+URxvt*iconFile: /usr/share/icons/Numix-Circle-Light/48/apps/terminal.svg
+
+
+!Clickable links
+!URxvt.perl-ext-common: default,matcher
+!URxvt.url-launcher: /usr/bin/xdg-open
+!URxvt.matcher.button: 1
+URxvt.perl-ext-common: selection-to-clipboard
+
+*.foreground:   #ffeefc
+*.background:   #141021
+*.cursorColor:  #c16772
+
+! black
+*.color0:       #4f4858
+*.color8:       #545d67
+
+! red
+*.color1:       #c05c47
+*.color9:       #c16772
+
+! green
+*.color2:       #428e8e
+*.color10:      #afda6e
+
+! yellow
+*.color3:       #e4b226
+*.color11:      #ebcf1a
+
+! blue
+*.color4:       #4457a3
+*.color12:      #4880a5
+
+! magenta
+*.color5:       #903a62
+*.color13:      #9568a1
+
+! cyan
+*.color6:       #7aa1dc
+*.color14:      #abbcda
+
+! white
+*.color7:       #c4b7c5
+*.color15:      #ffeefc
+
+
+!URxvt.background: #0d1926
+!URxvt.foreground: #FFFFFF
+
+!!dark blue
+!*.color0:#2E3440
+!!royal blue
+!*.color1: #355c7d
+!!dark purple
+!*.color2: #6c5b7b
+!!light pink
+!*.color3: #f67280
+!!light red
+!*.color4: #c06c84
+!!light green
+!*.color5: #83af9b
+!!light yellow
+!*.color6: #f8b195
+!!grey ice blue
+!!*.color7: #C7CCD1
+!*.color7: #FFFFFF
+!!dark blue
+!*.color8:#2E3440
+!!royal blue
+!*.color9: #355c7d
+!!dark purple
+!*.color10: #6c5b7b
+!!light pink
+!*.color11: #f67280
+!!royal blue
+!*.color12: #c06c84
+!!light green
+!*.color13: #83af9b
+!!light yellow
+!*.color14: #f8b195
+!!white
+!*.color15: #FFFFFF
+
+!-------------------------------------------
+! Man pages colors
+
+*VT100.colorBDMode:                  true
+*VT100.colorBD:                      red
+*VT100.colorULMode:                  true
+*VT100.colorUL:                      cyan   
+*VT100.veryBoldColors:               6
+
+!-------------------------------------------
+! xclock
+
+xclock*majorColor:                  #9a875f
+xclock*minorColor:                  #9a875f
+xclock*minuteColor:                 #9a875f
+xclock*hourColor:                   #9a875f
+xclock*secondColor:                 #9a875f
+
+!-------------------------------------------
+! rofi
+
+rofi.color-enabled: true
+rofi.color-window: #141021, #c16772, #9568a1
+rofi.color-normal: #141021, #ffeefc, #312842, #c16772, #ffeefc
+rofi.color-active: #141021, #c05c47, #312842, #c05c47, #ffeefc
+rofi.color-urgent: #141021, #e4b226, #312842, #e4b226, #ffeefc
+rofi.width: 800
+rofi.padding: 50
+rofi.font: PragmataPro Nerd Font 18
+rofi.bw: 3
+rofi.separator-style: solid
+rofi.hide-scrollbar: true
+
