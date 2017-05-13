@@ -50,10 +50,10 @@ URxvt*iconFile: /usr/share/icons/Numix-Circle-Light/48/apps/terminal.svg
 
 
 !Clickable links
-!URxvt.perl-ext-common: default,matcher
-!URxvt.url-launcher: /usr/bin/xdg-open
-!URxvt.matcher.button: 1
-URxvt.perl-ext-common: selection-to-clipboard
+URxvt.perl-ext-common: default,matcher,selection-to-clipboard
+URxvt.url-launcher: /usr/bin/xdg-open
+URxvt.matcher.button: 1
+!URxvt.perl-ext-common: selection-to-clipboard
 
 *.foreground:   #ffeefc
 *.background:   #141021

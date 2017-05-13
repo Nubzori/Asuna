@@ -231,12 +231,13 @@ for_window [class="Pcmanfm" instance="pcmanfm"] floating enable
 for_window [class="Nautilus"] floating enable
 for_window [class="mpv"] floating enable
 for_window [class="URxvt"] floating enable
-for_window [class="Discord"] floating enable
-for_window [class="Pavucontrol"] floating enable
+for_window [class="pavucontrol"] floating enable
+for_window [class="discord"] floating enable
+for_window [class="keepass"] floating enable
 
 
 #Compton
-exec_always compton --config ~/.config/compton.conf
+#exec_always compton --config ~/.config/compton.conf
 
 
 
@@ -257,7 +258,7 @@ bindsym --release Ctrl+k exec keepass
 exec_always --no-startup-id $HOME/.config/polybar/launcher.sh
 
 #imgur-screenshot
-bindsym $mod+Print exec imgur-screenshotu
+bindsym $mod+Print exec imgur-screenshot
 
 #xrandr
 #exec xrandr --output DVI-D-0 --mode 1920x1080 --rate 144 --output DP-2 --auto --left-of DVI-D-0
@@ -268,11 +269,9 @@ bindsym $mod+Print exec imgur-screenshotu
 #Keepass autotype
 bindsym --release Ctrl+shift+e exec keepass --auto-type
 
-#xbindkeys
-exec_always xbindkeys
-
 #Application autostart
 
+exec_always xbindkeys
 exec firefox
 exec thunderbird
 #exec discord
